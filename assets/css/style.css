@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(
+    80deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(240deg 67% 99%) 11%,
+        hsl(227deg 69% 97%) 22%,
+        hsl(230deg 60% 96%) 33%,
+        hsl(226deg 63% 95%) 44%,
+        hsl(229deg 64% 94%) 56%,
+        hsl(226deg 65% 92%) 67%,
+        hsl(228deg 62% 91%) 78%,
+        hsl(226deg 63% 89%) 89%,
+        hsl(227deg 63% 88%) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    line-height: 1;
+    margin: 0;
+    color:green ;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.form-area {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-area #success-message {
+    margin-top: 30px;
+    text-align: center;
+    display: none;
+}
+
+.form-area .form-top {
+    margin-bottom: 40px;
+}
+.form-area .form-top h3 {
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #434344;
+    font-weight: 600;
+}
+
+.form-control {
+    border: 2px solid #f2f3f7;
+    background: #f3f4f9;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0  0 transparent;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group .warning {
+    color: rgb(223, 74, 74);
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #434344;
+}
+
+.form-group.error input{
+    border-color: rgb(255, 62, 62);
+}
+.form-group.success #warning{
+    display: none;
+}
+.form-group.error #warning {
+    visibility: visible;
+}
+.form-group #warning {
+    color: rgb(255, 62, 62);
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    background: #3568e7;
+}
